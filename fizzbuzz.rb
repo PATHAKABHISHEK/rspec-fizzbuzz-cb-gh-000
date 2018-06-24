@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(value)
   if value % 3 == 0 && value % 5 == 0
-    puts "FizzBuzz"
+    "FizzBuzz"
   elsif value % 3 == 0
-    puts "Fizz"
+      "Fizz"
   elsif value % 5 == 0
-    puts "Buzz"
+    "Buzz"
   else
-    puts "nil"
+    "nil"
   end
 end
