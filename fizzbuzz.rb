@@ -4,9 +4,9 @@ def fizzbuzz(value)
   if (value % 3 ==0 && value % 5 ==0)
     puts "FizzBuzz"
   elsif (value % 3 ==0)
-    puts "Buzz"
+    puts "Fizz"
   elsif (value % 5 == 0)
-    puts "FizzBuzz"
+    puts "Buzz"
   else
     puts "nil"
   end
