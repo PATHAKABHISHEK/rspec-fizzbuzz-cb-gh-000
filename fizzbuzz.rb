@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(value)
   if (value % 3 ==0 && value % 5 ==0)
-    puts "Fizz"
+    puts "FizzBuzz"
   elsif (value % 3 ==0)
     puts "Buzz"
   elsif (value % 5 == 0)
