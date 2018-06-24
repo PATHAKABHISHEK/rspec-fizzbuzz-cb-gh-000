@@ -2,11 +2,12 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(value)
   if (value % 3 ==0 && value % 5 ==0)
-    # puts ""
+    puts "Fizz"
   elsif (value % 3 ==0)
-    # puts ""
+    puts "Buzz"
   elsif (value % 3 == 0)
-    # puts ""
+    puts "FizzBuzz"
   else
-    # puts ""
+    puts "nil"
+  end
 end
