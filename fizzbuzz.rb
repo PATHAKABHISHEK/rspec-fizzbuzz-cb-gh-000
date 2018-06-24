@@ -7,6 +7,6 @@ def fizbuzz(value)
     puts ""
   elsif (value % 3 == 0)
     puts ""
-  else 
-    puts "" 
+  else
+    puts ""
 end
